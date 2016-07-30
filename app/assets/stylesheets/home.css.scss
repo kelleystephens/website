@@ -1,31 +1,35 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-@import url(https://fonts.googleapis.com/css?family=Marck+Script);
-
-.nametag {
-  width: 40%;
+// Index
+.holder {
+  width: 60%;
   margin: auto;
-  padding-top: 10px;
-  padding-bottom: 35px;
-  border-radius: 3%;
-  background: red;
-  color: white;
-  text-align: center;
-  .tag-footer {
-    background: white;
-    padding: 60px 0px;
-    border-left: 1px solid red;
-    border-right: 1px solid red;
-    color: black;
-    font-family: 'Marck Script', cursive;
-    h1 {
-      font-size: 4.5em;
-    }
-    h2 {
-      text-align: left;
-      padding-left: 20px;
-      margin: 0;
-    }
+  padding-top: 15%;
+  @media (max-width: 934px) {
+    width: 90%;
   }
 }
+
+.name {
+  text-align: center;
+  font-family: 'Over the Rainbow', cursive;
+  font-size: 5.5em;
+  color: #C995A2;
+}
+
+.line {
+  border: 2px solid #235C7E;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.5em;
+  color: #C995A2;
+}
+
+// About
+.about, .resume, .contact {
+  font-family: 'Raleway', sans-serif;
+  color: #C995A2;
+}
+// Resume
+// Contact

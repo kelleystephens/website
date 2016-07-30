@@ -1,0 +1,75 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 18, /Users/kelleystephens/Documents/Code/ruby/website/app/assets/stylesheets/application.css.scss */
+body {
+  background-image: url("paint-sky.jpg");
+}
+@import url(https://fonts.googleapis.com/css?family=Over+the+Rainbow);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+/* line 5, /Users/kelleystephens/Documents/Code/ruby/website/app/assets/stylesheets/home.css.scss */
+.holder {
+  width: 60%;
+  margin: auto;
+  padding-top: 15%;
+}
+@media (max-width: 934px) {
+  /* line 5, /Users/kelleystephens/Documents/Code/ruby/website/app/assets/stylesheets/home.css.scss */
+  .holder {
+    width: 90%;
+  }
+}
+
+/* line 14, /Users/kelleystephens/Documents/Code/ruby/website/app/assets/stylesheets/home.css.scss */
+.name {
+  text-align: center;
+  font-family: 'Over the Rainbow', cursive;
+  font-size: 5.5em;
+  color: #C995A2;
+}
+
+/* line 21, /Users/kelleystephens/Documents/Code/ruby/website/app/assets/stylesheets/home.css.scss */
+.line {
+  border: 2px solid #235C7E;
+}
+
+/* line 25, /Users/kelleystephens/Documents/Code/ruby/website/app/assets/stylesheets/home.css.scss */
+.title {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.5em;
+  color: #C995A2;
+}
+
+/* line 33, /Users/kelleystephens/Documents/Code/ruby/website/app/assets/stylesheets/home.css.scss */
+.about, .resume, .contact {
+  font-family: 'Raleway', sans-serif;
+  color: #C995A2;
+}
+/* line 1, /Users/kelleystephens/Documents/Code/ruby/website/app/assets/stylesheets/navbar.css.scss */
+.navbar.navbar-default {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+/* line 7, /Users/kelleystephens/Documents/Code/ruby/website/app/assets/stylesheets/navbar.css.scss */
+.navbar.navbar-default .navbar-nav li a {
+  color: #CBB0B6;
+  font-size: 1.4em;
+}
+/* line 10, /Users/kelleystephens/Documents/Code/ruby/website/app/assets/stylesheets/navbar.css.scss */
+.navbar.navbar-default .navbar-nav li a:hover {
+  color: #C995A2;
+}

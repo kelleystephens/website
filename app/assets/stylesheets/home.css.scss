@@ -24,15 +24,51 @@
 
 .title {
   text-align: center;
+  padding-top: 10px;
   font-family: 'Raleway', sans-serif;
   font-size: 3.5em;
   color: #C995A2;
 }
 
+.bkgd-credit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 8px;
+  color: #C995A2;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color: #CBB0B6;
+  }
+}
+
 // About
 .about, .resume, .contact {
-  font-family: 'Raleway', sans-serif;
   color: #C995A2;
+}
+
+.holder.low-padding {
+  padding-top: 5%;
+  .title {
+    font-size: 2.5em;
+    color: #235C7E;
+  }
+  .title.justify {
+    text-align: justify;
+    font-size: 2.2em;
+  }
+  a {
+    color: #235C7E;
+    &:hover {
+      text-decoration: none;
+      color: #427998;
+    }
+    &:focus {
+      text-decoration: none;
+      outline: none;
+    }
+  }
 }
 // Resume
 // Contact

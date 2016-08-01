@@ -16,4 +16,7 @@
 
 body {
   background: image-url('paint-sky.jpg');
+  &> * {
+    font-family: 'Raleway', sans-serif;
+  }
 }
